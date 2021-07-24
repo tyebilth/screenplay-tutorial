@@ -10,5 +10,5 @@ public class TFLSearchResultsPage extends PageObject {
             .locatedBy(".hero-headline");
 
     public static final Target FIRST_ARTICLE_HEADING = Target.the("first article heading")
-            .locatedBy(".search-results h3");
+            .locatedBy(".h3");
 }
